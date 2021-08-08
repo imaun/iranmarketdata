@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7E9D776-3B50-4CE5-95ED-11B070F886CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iran.MarketData", "src\Iran.MarketData\Iran.MarketData.csproj", "{192C611B-1A0A-4CBF-9410-07A6A412CB1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{79FAE74E-5780-48EF-A9D0-8D80368FD0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IranMarketData.Console", "src\samples\IranMarketData.Console\IranMarketData.Console.csproj", "{1CFACB83-1122-4B1D-92E6-35736A1D5BC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192C611B-1A0A-4CBF-9410-07A6A412CB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192C611B-1A0A-4CBF-9410-07A6A412CB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192C611B-1A0A-4CBF-9410-07A6A412CB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192C611B-1A0A-4CBF-9410-07A6A412CB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CFACB83-1122-4B1D-92E6-35736A1D5BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CFACB83-1122-4B1D-92E6-35736A1D5BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CFACB83-1122-4B1D-92E6-35736A1D5BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CFACB83-1122-4B1D-92E6-35736A1D5BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{192C611B-1A0A-4CBF-9410-07A6A412CB1A} = {C7E9D776-3B50-4CE5-95ED-11B070F886CD}
+		{79FAE74E-5780-48EF-A9D0-8D80368FD0D8} = {C7E9D776-3B50-4CE5-95ED-11B070F886CD}
+		{1CFACB83-1122-4B1D-92E6-35736A1D5BC0} = {79FAE74E-5780-48EF-A9D0-8D80368FD0D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62C2289E-3B48-48D6-8A57-506642E864A0}
+	EndGlobalSection
+EndGlobal
